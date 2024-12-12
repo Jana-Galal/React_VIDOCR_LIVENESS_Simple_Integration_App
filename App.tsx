@@ -7,9 +7,9 @@ import { startLiveness } from '@valifysolutions/react-native-vidvliveness';
 const App = () => {
   const [accessToken, setAccessToken] = useState(null);
 
-  const bundleKey = "2b92d93b823142899e70eede53182735";
+  const bundleKey = "Enter your bundle key";
   //Defining variables needed to get access token
-  const baseUrl = "https://www.valifystage.com";
+  const baseUrl = "Enter base URL";
   const username = "Enter your user name";
   const password = "Enter your password";
   const clientId = "Enter your client Id";
